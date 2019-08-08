@@ -11,7 +11,9 @@
         <h1>Hello Pizza</h1>
         <ul>
             <li>Home</li>
-            <li>Sobre</li>
+            <li><a href="sobre.html" target="_blank">Sobre
+            </a></li>
+
             <li>Contato</li>
         </ul>
     </header>
@@ -28,6 +30,10 @@
     <section>
         <h2>Sabores</h2>
         <p>Conheça os nosso <strong>5 sabores</strong> de <em>pizza</em></p>
+
+
+        <img src="assets/sabores-pizzas.png" alt="Fotos 
+        de pizza de varios sabores"/>
 
         <table border="1">
             <tr>
@@ -80,6 +86,16 @@
 
     <section>
         <h2>Contato</h2>
+        <form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="post">
+            <label>Nome:</label>
+            <input type="text" name="nome"/>
+            <label>E-mail:</label>
+            <input type="text" name="email"/>
+            <label>Mensagem:</label>
+            <textarea name="mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" name="btn-mensagem" />
+            
+        </form>
     </section>
 
     <footer>
