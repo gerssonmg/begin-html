@@ -1,0 +1,12 @@
+.lado-a-lado input {
+    display: inline;
+    margin-right: 30px
+}
+
+.lado-a-lado {
+    margin-bottom: 30px;
+}
+
+.cima-baixo input {
+    display: block;
+}
